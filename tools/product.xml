@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Product>
+
+  <ProductType>Normalized Radar Backscatter</ProductType>
+
+  <ProductCopyright>ISRO/NRSC</ProductCopyright>
+
+  <DocumentIdentifier name="CEOS-ARD for Synthetic Aperture Radar" type="URL" version="1.0">https://ceos.org/ard/files/PFS/SAR/v1.0/CEOS-ARD_PFS_Synthetic_Aperture_Radar_v1.0.pdf</DocumentIdentifier>
+
+  <DataCollectionTime>
+    <NumberOfAcquisitions>1</NumberOfAcquisitions>
+    <FirstAcquisitionDate>2025-01-05</FirstAcquisitionDate>
+    <LastAcquisitionDate>2025-01-05</LastAcquisitionDate>
+  </DataCollectionTime>
+
+  <SourceAttributes acqID="1">
+    <SourceDataRepository type="URL">https://bhoonidhi.nrsc.gov.in</SourceDataRepository>
+    <Satellite>EOS-04</Satellite>
+    <Instrument>SAR</Instrument>
+    <ProductID>251345471</ProductID>
+    <ImageId>015965115025088033RT2025-01-05</ImageId>
+    <InputDatasetFacilityId>NRSC</InputDatasetFacilityId>
+    <BeamModeId>0</BeamModeId>
+    <BeamModeMnemonic>MRS </BeamModeMnemonic>
+    <SourceDataAcquisitionTime>
+      <StartTime>2025-01-05T00:05:58.909000000Z</StartTime>
+      <EndTime>2025-01-05T00:06:21.539000000Z</EndTime>
+    </SourceDataAcquisitionTime>
+    <SourceDataAcquisitionParameters>
+      <ObservationMode>SCANSAR</ObservationMode>
+      <BeamID>6.600000 5.100000 3.700000 2.300000 0.900000 -0.400000 -1.600000 -2.800000</BeamID>
+      <Polarizations>HH HV</Polarizations>
+      <PulsesReceivedPerDwell beam="6.600000">204</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="5.100000">264</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="3.700000">260</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="2.300000">238</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="0.900000">218</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="-0.400000">264</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="-1.600000">244</PulsesReceivedPerDwell>
+      <PulsesReceivedPerDwell beam="-2.800000">224</PulsesReceivedPerDwell>
+      <RadarBand>C</RadarBand>
+      <RadarCenterFrequency units="Hz">5.40e09</RadarCenterFrequency>
+      <PulseRepetitionFrequency beam="6.600000" units="Hz">2857.534748</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="5.100000" units="Hz">3699.100379</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="3.700000" units="Hz">3643.889925</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="2.300000" units="Hz">3341.531223</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="0.900000" units="Hz">3044.621980</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="-0.400000" units="Hz">3699.100379</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="-1.600000" units="Hz">3423.531989</PulseRepetitionFrequency>
+      <PulseRepetitionFrequency beam="-2.800000" units="Hz">3150.201613</PulseRepetitionFrequency>
+      <PulseLength units="s">2e-05</PulseLength>
+      <PulseBandwidth units="Hz">18750000</PulseBandwidth>
+      <AntennaPointing>RIGHT</AntennaPointing>
+      <AdcSamplingRate units="Hz">20833333.333333</AdcSamplingRate>
+      <YawSteeringFlag>YawSteeringOn</YawSteeringFlag>
+      <GeodeticFlag>On-Geodetic</GeodeticFlag>
+      <RawBitsPerSample>8</RawBitsPerSample>
+      <SamplesPerEchoLine beam="6.600000">2688</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="5.100000">2560</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="3.700000">2688</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="2.300000">2688</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="0.900000">2816</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="-0.400000">2944</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="-1.600000">3072</SamplesPerEchoLine>
+      <SamplesPerEchoLine beam="-2.800000">2944</SamplesPerEchoLine>
+    </SourceDataAcquisitionParameters>
+    <RawDataAttributes>
+      <RawDataAnalysis pol="HH">
+        <Bias dataStream="Real">-0.060864</Bias>
+        <Bias dataStream="Imaginary">0.687983</Bias>
+        <StandardDeviation dataStream="Real">11.234971</StandardDeviation>
+        <StandardDeviation dataStream="Imaginary">11.586774</StandardDeviation>
+        <GainImbalance>0.969638</GainImbalance>
+        <PhaseOrthogonality units="deg">0.000000</PhaseOrthogonality>
+        <RawDataHistogram dataStream="Real">22361216 1006 85 48 75 64 90 79 85 89 108 106 121 118 155 157 173 186 201 205 227 190 202 257 310 339 368 360 382 486 468 470 591 602 590 640 684 753 858 923 979 1193 1395 1444 1468 1747 1816 2228 2281 2546 3053 3336 3788 4532 4526 4742 5729 5800 6578 7895 9352 10841 12045 12896 16610 18336 19207 18878 24125 28958 33416 33627 40482 42053 50176 56144 62400 75015 81669 96897 109636 111122 136543 164725 164938 180836 211494 252450 263573 295632 320492 397728 425987 469243 487321 555003 583848 655377 679729 783442 917620 1073163 1102363 1156271 1330099 1456858 1660695 1767266 1673220 1997427 2369732 2218063 2442164 2971954 3099750 3066881 3418365 3376765 3892231 4332235 4523057 5071431 6005023 6894212 8077637 7994982 9048475 9329080 10483183 8822047 8506919 8429409 7372189 6481713 6200740 5152630 4462129 4447450 3695949 3590476 3588583 3267666 2904845 2611012 2261665 2428457 2325150 2057856 1647166 1688447 1630857 1520751 1251098 1244762 1029650 966381 843242 760591 725719 638770 618293 564830 465390 467027 447942 350080 309161 293809 281102 235082 210302 179683 177275 153122 139405 114912 100869 82337 76912 63470 58160 54978 52538 43482 37756 36566 31911 26790 22753 18356 18512 18013 13831 12584 11599 9925 8483 8167 6679 6464 5938 4789 4242 4068 3659 3459 2792 2517 2158 2266 1763 1632 1548 1402 1259 1203 933 829 878 735 664 664 635 575 495 408 459 449 367 312 312 305 285 242 275 230 187 164 126 182 172 162 125 127 124 130 93 99 102 94 78 80 70 74 1052 0</RawDataHistogram>
+        <RawDataHistogram dataStream="Imaginary">22361216 961 63 67 96 66 68 87 95 85 84 117 101 139 111 152 200 152 209 214 214 235 266 276 301 307 318 366 441 516 512 530 570 579 645 674 689 841 863 980 1059 1224 1338 1504 1577 1854 1940 2117 2555 2812 3204 3690 4246 4396 4765 5229 6486 6525 7274 9205 9192 10264 12630 14352 15670 18452 19132 21644 24823 27673 34909 33886 38610 45892 49163 59423 61458 74916 84404 95026 103445 120221 129252 151242 171045 190806 231578 231964 258955 313885 320602 385165 453811 460686 498543 512301 613649 659070 648340 800489 875135 893417 1052218 1208448 1369412 1373053 1446126 1462544 1703269 1865784 2205878 2287365 2300566 2892056 2825481 3079428 3079439 3194014 3601310 3973475 4323232 4816515 5329010 5728085 6590558 7092538 8377907 8843174 8423872 9312436 9060675 8631085 8101489 7267650 6145004 5540169 5107548 5174370 4407469 3976742 3899474 3307179 3043478 3078884 2781010 2463932 2386818 2157627 2038770 1905707 1739028 1774628 1400615 1331549 1235994 1033533 1002710 862295 846978 764487 701305 612190 587665 518939 487802 434421 387136 369888 298529 274020 270817 230476 225250 209795 174919 156489 129514 125449 110709 85764 85005 75288 63547 61196 56326 50972 42377 37940 31426 28577 25144 24632 21638 17955 17451 14242 13785 11625 10216 9846 8743 7620 6914 5968 5263 4913 4059 3946 3317 2831 2979 2562 2352 2251 2022 1718 1430 1372 1279 1078 981 1072 977 798 841 770 665 604 483 531 473 456 429 335 347 327 293 270 231 283 205 192 178 202 177 146 147 155 138 107 114 125 110 99 1689 0</RawDataHistogram>
+      </RawDataAnalysis>
+      <RawDataAnalysis pol="HV">
+        <Bias dataStream="Real">-0.806738</Bias>
+        <Bias dataStream="Imaginary">-0.924165</Bias>
+        <StandardDeviation dataStream="Real">8.699690</StandardDeviation>
+        <StandardDeviation dataStream="Imaginary">9.076458</StandardDeviation>
+        <GainImbalance>0.958490</GainImbalance>
+        <PhaseOrthogonality units="deg">0.000000</PhaseOrthogonality>
+        <RawDataHistogram dataStream="Real">22361216 26 1 1 2 0 2 0 1 1 2 0 0 1 1 2 1 0 1 1 1 0 0 0 3 3 1 0 0 0 0 1 3 1 0 1 0 2 2 7 1 2 2 5 5 4 3 4 11 13 14 11 19 15 26 34 42 73 96 99 114 155 178 294 270 407 511 657 817 986 1362 1744 2022 2614 3538 4112 5577 6363 8001 9757 12245 14368 20025 24151 28510 36933 42076 49318 58630 70854 95995 105904 145744 154855 178219 224477 263613 282023 347746 434717 490162 623873 647567 889149 956991 986449 1267539 1327186 1470209 1817374 1936279 2288221 2723676 3224198 3467292 3704732 4303600 4949793 4967667 6125340 6670323 7393622 8195611 9140170 9277439 10182521 9573525 9494765 10267888 8514795 9790640 8811319 8108784 7604855 6210910 5729898 5244468 4662469 3896421 3853349 3410549 2804189 2472113 2183462 2201962 1628792 1580431 1296305 1089433 991262 841664 786187 727754 586527 486822 427939 340841 318652 259004 227041 199486 166940 131935 121098 97770 78106 69615 56123 43974 36254 30396 27743 20230 19143 13732 11091 9404 7484 5646 4760 4038 2967 2695 1938 1824 1249 901 839 634 502 430 353 294 218 169 147 106 97 67 50 44 40 30 23 23 22 20 9 9 6 3 4 9 7 5 4 5 6 0 0 1 5 3 3 1 4 2 3 2 0 1 2 0 1 1 1 1 0 0 1 1 0 0 0 1 1 1 2 1 0 0 0 3 1 45 0</RawDataHistogram>
+        <RawDataHistogram dataStream="Imaginary">22361216 37 3 0 0 0 2 1 2 3 0 1 0 0 1 1 1 0 1 2 1 0 1 2 2 1 0 4 2 2 2 2 0 1 3 4 2 1 2 5 6 0 8 6 10 15 15 16 14 26 24 35 29 57 68 89 96 112 177 174 223 305 392 544 638 732 920 1211 1657 1826 2178 3044 4069 4658 4452 6316 8463 8805 12288 14288 19545 22558 27747 34491 40183 52688 63770 70793 83634 111054 136944 145566 174338 203632 253926 300142 303582 375537 401260 511450 581265 650534 795415 940593 1021734 1243893 1261055 1457634 1751789 1955912 1993687 2465911 2858831 3479039 3067885 3284311 4624820 4773362 4922681 5702835 6880777 7647643 8130055 8834762 9334774 9680100 10206972 9510796 8833710 9286389 9440871 8108880 7895645 7067950 6386927 5832740 4738032 4221637 4067026 3303682 3469698 2819389 2567322 2439817 2125277 1862998 1553322 1403504 1284568 1172093 947647 835856 783747 661772 519679 376375 406585 377395 270646 275462 216652 205533 164144 143028 123067 99453 87434 72836 57417 48218 44445 36988 26934 23640 19232 16513 13390 9950 8828 6664 5941 4761 3899 3500 2841 2229 1898 1224 1148 974 794 522 450 382 363 218 166 179 151 95 76 80 43 45 26 32 17 20 14 6 15 8 6 7 5 4 3 1 2 7 3 1 2 3 2 0 3 2 0 4 0 1 1 1 1 1 1 1 3 1 0 2 3 3 0 1 1 0 0 0 0 4 1 2 42 0</RawDataHistogram>
+      </RawDataAnalysis>
+    </RawDataAttributes>
+    <OrbitAndAttitude>
+      <OrbitInformation>
+        <PassDirection>DESCENDING</PassDirection>
+        <OrbitDataSource>GPS</OrbitDataSource>
+        <OrbitNumber>15965</OrbitNumber>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:05:57.960Z</TimeStamp>
+          <xPosition units="m">-5945325.039120</xPosition>
+          <yPosition units="m">-1954335.996290</yPosition>
+          <zPosition units="m">2916629.324560</zPosition>
+          <xVelocity units="m/s">-3369.940550</xVelocity>
+          <yVelocity units="m/s">45.720150</yVelocity>
+          <zVelocity units="m/s">-6812.382670</zVelocity>
+          <siderealangle units="deg">106.338023</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:05:59.600Z</TimeStamp>
+          <xPosition units="m">-5950842.050130</xPosition>
+          <yPosition units="m">-1954257.832410</yPosition>
+          <zPosition units="m">2905452.270310</zPosition>
+          <xVelocity units="m/s">-3358.126260</xVelocity>
+          <yVelocity units="m/s">49.601720</yVelocity>
+          <zVelocity units="m/s">-6818.180570</zVelocity>
+          <siderealangle units="deg">106.344875</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:01.240Z</TimeStamp>
+          <xPosition units="m">-5956339.676740</xPosition>
+          <yPosition units="m">-1954173.302900</yPosition>
+          <zPosition units="m">2894265.725770</zPosition>
+          <xVelocity units="m/s">-3346.301010</xVelocity>
+          <yVelocity units="m/s">53.483130</yVelocity>
+          <zVelocity units="m/s">-6823.956210</zVelocity>
+          <siderealangle units="deg">106.351727</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:02.880Z</TimeStamp>
+          <xPosition units="m">-5961817.901010</xPosition>
+          <yPosition units="m">-1954082.408010</yPosition>
+          <zPosition units="m">2883069.727460</zPosition>
+          <xVelocity units="m/s">-3334.464850</xVelocity>
+          <yVelocity units="m/s">57.364370</yVelocity>
+          <zVelocity units="m/s">-6829.709570</zVelocity>
+          <siderealangle units="deg">106.358579</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:04.520Z</TimeStamp>
+          <xPosition units="m">-5967276.705070</xPosition>
+          <yPosition units="m">-1953985.148050</yPosition>
+          <zPosition units="m">2871864.311940</zPosition>
+          <xVelocity units="m/s">-3322.617810</xVelocity>
+          <yVelocity units="m/s">61.245420</yVelocity>
+          <zVelocity units="m/s">-6835.440620</zVelocity>
+          <siderealangle units="deg">106.365431</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:06.160Z</TimeStamp>
+          <xPosition units="m">-5972716.071110</xPosition>
+          <yPosition units="m">-1953881.523320</yPosition>
+          <zPosition units="m">2860649.515800</zPosition>
+          <xVelocity units="m/s">-3310.759930</xVelocity>
+          <yVelocity units="m/s">65.126280</yVelocity>
+          <zVelocity units="m/s">-6841.149360</zVelocity>
+          <siderealangle units="deg">106.372283</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:07.800Z</TimeStamp>
+          <xPosition units="m">-5978135.981390</xPosition>
+          <yPosition units="m">-1953771.534160</yPosition>
+          <zPosition units="m">2849425.375660</zPosition>
+          <xVelocity units="m/s">-3298.891260</xVelocity>
+          <yVelocity units="m/s">69.006930</yVelocity>
+          <zVelocity units="m/s">-6846.835760</zVelocity>
+          <siderealangle units="deg">106.379135</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:09.440Z</TimeStamp>
+          <xPosition units="m">-5983536.418240</xPosition>
+          <yPosition units="m">-1953655.180920</yPosition>
+          <zPosition units="m">2838191.928160</zPosition>
+          <xVelocity units="m/s">-3287.011820</xVelocity>
+          <yVelocity units="m/s">72.887360</yVelocity>
+          <zVelocity units="m/s">-6852.499800</zVelocity>
+          <siderealangle units="deg">106.385987</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:11.080Z</TimeStamp>
+          <xPosition units="m">-5988917.364020</xPosition>
+          <yPosition units="m">-1953532.463970</yPosition>
+          <zPosition units="m">2826949.210000</zPosition>
+          <xVelocity units="m/s">-3275.121660</xVelocity>
+          <yVelocity units="m/s">76.767560</yVelocity>
+          <zVelocity units="m/s">-6858.141460</zVelocity>
+          <siderealangle units="deg">106.392839</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:12.720Z</TimeStamp>
+          <xPosition units="m">-5994278.801210</xPosition>
+          <yPosition units="m">-1953403.383700</yPosition>
+          <zPosition units="m">2815697.257870</zPosition>
+          <xVelocity units="m/s">-3263.220820</xVelocity>
+          <yVelocity units="m/s">80.647510</yVelocity>
+          <zVelocity units="m/s">-6863.760730</zVelocity>
+          <siderealangle units="deg">106.399691</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:14.360Z</TimeStamp>
+          <xPosition units="m">-5999620.712300</xPosition>
+          <yPosition units="m">-1953267.940540</yPosition>
+          <zPosition units="m">2804436.108530</zPosition>
+          <xVelocity units="m/s">-3251.309340</xVelocity>
+          <yVelocity units="m/s">84.527190</yVelocity>
+          <zVelocity units="m/s">-6869.357580</zVelocity>
+          <siderealangle units="deg">106.406543</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:16.000Z</TimeStamp>
+          <xPosition units="m">-6004943.079870</xPosition>
+          <yPosition units="m">-1953126.134920</yPosition>
+          <zPosition units="m">2793165.798750</zPosition>
+          <xVelocity units="m/s">-3239.387250</xVelocity>
+          <yVelocity units="m/s">88.406610</yVelocity>
+          <zVelocity units="m/s">-6874.932010</zVelocity>
+          <siderealangle units="deg">106.413395</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:17.640Z</TimeStamp>
+          <xPosition units="m">-6010245.886540</xPosition>
+          <yPosition units="m">-1952977.967300</yPosition>
+          <zPosition units="m">2781886.365400</zPosition>
+          <xVelocity units="m/s">-3227.454600</xVelocity>
+          <yVelocity units="m/s">92.285740</yVelocity>
+          <zVelocity units="m/s">-6880.483980</zVelocity>
+          <siderealangle units="deg">106.420247</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:19.280Z</TimeStamp>
+          <xPosition units="m">-6015529.115080</xPosition>
+          <yPosition units="m">-1952823.438150</yPosition>
+          <zPosition units="m">2770597.845170</zPosition>
+          <xVelocity units="m/s">-3215.511420</xVelocity>
+          <yVelocity units="m/s">96.164570</yVelocity>
+          <zVelocity units="m/s">-6886.013490</zVelocity>
+          <siderealangle units="deg">106.427099</siderealangle>
+        </StateVector>
+        <StateVector>
+          <TimeStamp>2025-01-05T00:06:20.920Z</TimeStamp>
+          <xPosition units="m">-6020792.748220</xPosition>
+          <yPosition units="m">-1952662.547970</yPosition>
+          <zPosition units="m">2759300.274990</zPosition>
+          <xVelocity units="m/s">-3203.557760</xVelocity>
+          <yVelocity units="m/s">100.043090</yVelocity>
+          <zVelocity units="m/s">-6891.520510</zVelocity>
+          <siderealangle units="deg">106.433951</siderealangle>
+        </StateVector>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:05:57.960Z</TimeStamp>
+          <xPosition units="m">-202976.293864</xPosition>
+          <yPosition units="m">6255007.564449</yPosition>
+          <zPosition units="m">2916629.324560</zPosition>
+          <xVelocity units="m/s">1447.972132</xVelocity>
+          <yVelocity units="m/s">3235.798391</yVelocity>
+          <zVelocity units="m/s">-6812.382670</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:05:59.600Z</TimeStamp>
+          <xPosition units="m">-200600.657780</xPosition>
+          <yPosition units="m">6260303.839050</yPosition>
+          <zPosition units="m">2905452.270310</zPosition>
+          <xVelocity units="m/s">1449.143476</xVelocity>
+          <yVelocity units="m/s">3223.077356</yVelocity>
+          <zVelocity units="m/s">-6818.180570</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:01.240Z</TimeStamp>
+          <xPosition units="m">-198223.108144</xPosition>
+          <yPosition units="m">6265579.242326</yPosition>
+          <zPosition units="m">2894265.725770</zPosition>
+          <xVelocity units="m/s">1450.307071</xVelocity>
+          <yVelocity units="m/s">3210.345567</yVelocity>
+          <zVelocity units="m/s">-6823.956210</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:02.880Z</TimeStamp>
+          <xPosition units="m">-195843.656555</xPosition>
+          <yPosition units="m">6270833.756709</yPosition>
+          <zPosition units="m">2883069.727460</zPosition>
+          <xVelocity units="m/s">1451.462917</xVelocity>
+          <yVelocity units="m/s">3197.603080</yVelocity>
+          <zVelocity units="m/s">-6829.709570</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:04.520Z</TimeStamp>
+          <xPosition units="m">-193462.315747</xPosition>
+          <yPosition units="m">6276067.364684</yPosition>
+          <zPosition units="m">2871864.311940</zPosition>
+          <xVelocity units="m/s">1452.610999</xVelocity>
+          <yVelocity units="m/s">3184.849930</yVelocity>
+          <zVelocity units="m/s">-6835.440620</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:06.160Z</TimeStamp>
+          <xPosition units="m">-191079.098439</xPosition>
+          <yPosition units="m">6281280.048796</yPosition>
+          <zPosition units="m">2860649.515800</zPosition>
+          <xVelocity units="m/s">1453.751322</xVelocity>
+          <yVelocity units="m/s">3172.086158</yVelocity>
+          <zVelocity units="m/s">-6841.149360</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:07.800Z</TimeStamp>
+          <xPosition units="m">-188694.016277</xPosition>
+          <yPosition units="m">6286471.791705</yPosition>
+          <zPosition units="m">2849425.375660</zPosition>
+          <xVelocity units="m/s">1454.883878</xVelocity>
+          <yVelocity units="m/s">3159.311821</yVelocity>
+          <zVelocity units="m/s">-6846.835760</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:09.440Z</TimeStamp>
+          <xPosition units="m">-186307.084197</xPosition>
+          <yPosition units="m">6291642.576046</yPosition>
+          <zPosition units="m">2838191.928160</zPosition>
+          <xVelocity units="m/s">1456.008656</xVelocity>
+          <yVelocity units="m/s">3146.526945</yVelocity>
+          <zVelocity units="m/s">-6852.499800</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:11.080Z</TimeStamp>
+          <xPosition units="m">-183918.313864</xPosition>
+          <yPosition units="m">6296792.384593</yPosition>
+          <zPosition units="m">2826949.210000</zPosition>
+          <xVelocity units="m/s">1457.125656</xVelocity>
+          <yVelocity units="m/s">3133.731581</yVelocity>
+          <zVelocity units="m/s">-6858.141460</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:12.720Z</TimeStamp>
+          <xPosition units="m">-181527.718032</xPosition>
+          <yPosition units="m">6301921.200211</yPosition>
+          <zPosition units="m">2815697.257870</zPosition>
+          <xVelocity units="m/s">1458.234866</xVelocity>
+          <yVelocity units="m/s">3120.925776</yVelocity>
+          <zVelocity units="m/s">-6863.760730</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:14.360Z</TimeStamp>
+          <xPosition units="m">-179135.309499</xPosition>
+          <yPosition units="m">6307029.005791</yPosition>
+          <zPosition units="m">2804436.108530</zPosition>
+          <xVelocity units="m/s">1459.336273</xVelocity>
+          <yVelocity units="m/s">3108.109578</yVelocity>
+          <zVelocity units="m/s">-6869.357580</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:16.000Z</TimeStamp>
+          <xPosition units="m">-176741.099946</xPosition>
+          <yPosition units="m">6312115.784345</yPosition>
+          <zPosition units="m">2793165.798750</zPosition>
+          <xVelocity units="m/s">1460.429890</xVelocity>
+          <yVelocity units="m/s">3095.283015</yVelocity>
+          <zVelocity units="m/s">-6874.932010</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:17.640Z</TimeStamp>
+          <xPosition units="m">-174345.104379</xPosition>
+          <yPosition units="m">6317181.518843</yPosition>
+          <zPosition units="m">2781886.365400</zPosition>
+          <xVelocity units="m/s">1461.515697</xVelocity>
+          <yVelocity units="m/s">3082.446146</yVelocity>
+          <zVelocity units="m/s">-6880.483980</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:19.280Z</TimeStamp>
+          <xPosition units="m">-171947.334481</xPosition>
+          <yPosition units="m">6322226.192500</yPosition>
+          <zPosition units="m">2770597.845170</zPosition>
+          <xVelocity units="m/s">1462.593688</xVelocity>
+          <yVelocity units="m/s">3069.599004</yVelocity>
+          <zVelocity units="m/s">-6886.013490</zVelocity>
+        </StateVectorECEF>
+        <StateVectorECEF>
+          <TimeStamp>2025-01-05T00:06:20.920Z</TimeStamp>
+          <xPosition units="m">-169547.803080</xPosition>
+          <yPosition units="m">6327249.788473</yPosition>
+          <zPosition units="m">2759300.274990</zPosition>
+          <xVelocity units="m/s">1463.663863</xVelocity>
+          <yVelocity units="m/s">3056.741645</yVelocity>
+          <zVelocity units="m/s">-6891.520510</zVelocity>
+        </StateVectorECEF>
+      </OrbitInformation>
+      <AttitudeInformation>
+        <AttitudeDataSource>STAR SENSOR</AttitudeDataSource>
+        <AttitudeOffsetsApplied>true</AttitudeOffsetsApplied>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:05:57.960Z</TimeStamp>
+          <yaw units="deg">2.761667</yaw>
+          <roll units="deg">-35.945420</roll>
+          <pitch units="deg">-1.943143</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:05:59.600Z</TimeStamp>
+          <yaw units="deg">2.764017</yaw>
+          <roll units="deg">-35.945347</roll>
+          <pitch units="deg">-1.944783</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:01.240Z</TimeStamp>
+          <yaw units="deg">2.766374</yaw>
+          <roll units="deg">-35.945288</roll>
+          <pitch units="deg">-1.946406</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:02.880Z</TimeStamp>
+          <yaw units="deg">2.768646</yaw>
+          <roll units="deg">-35.945248</roll>
+          <pitch units="deg">-1.947986</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:04.520Z</TimeStamp>
+          <yaw units="deg">2.771001</yaw>
+          <roll units="deg">-35.945165</roll>
+          <pitch units="deg">-1.949581</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:06.160Z</TimeStamp>
+          <yaw units="deg">2.773344</yaw>
+          <roll units="deg">-35.945110</roll>
+          <pitch units="deg">-1.951201</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:07.800Z</TimeStamp>
+          <yaw units="deg">2.775605</yaw>
+          <roll units="deg">-35.945022</roll>
+          <pitch units="deg">-1.952779</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:09.440Z</TimeStamp>
+          <yaw units="deg">2.777870</yaw>
+          <roll units="deg">-35.944983</roll>
+          <pitch units="deg">-1.954317</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:11.080Z</TimeStamp>
+          <yaw units="deg">2.780228</yaw>
+          <roll units="deg">-35.944948</roll>
+          <pitch units="deg">-1.955802</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:12.720Z</TimeStamp>
+          <yaw units="deg">2.782471</yaw>
+          <roll units="deg">-35.944903</roll>
+          <pitch units="deg">-1.957517</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:14.360Z</TimeStamp>
+          <yaw units="deg">2.784724</yaw>
+          <roll units="deg">-35.944898</roll>
+          <pitch units="deg">-1.958950</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:16.000Z</TimeStamp>
+          <yaw units="deg">2.787034</yaw>
+          <roll units="deg">-35.944837</roll>
+          <pitch units="deg">-1.960471</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:17.640Z</TimeStamp>
+          <yaw units="deg">2.789293</yaw>
+          <roll units="deg">-35.944751</roll>
+          <pitch units="deg">-1.962016</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:19.280Z</TimeStamp>
+          <yaw units="deg">2.791538</yaw>
+          <roll units="deg">-35.944643</roll>
+          <pitch units="deg">-1.963496</pitch>
+        </AttitudeAngles>
+        <AttitudeAngles>
+          <TimeStamp>2025-01-05T00:06:20.920Z</TimeStamp>
+          <yaw units="deg">2.793796</yaw>
+          <roll units="deg">-35.944553</roll>
+          <pitch units="deg">-1.964997</pitch>
+        </AttitudeAngles>
+      </AttitudeInformation>
+    </OrbitAndAttitude>
+  </SourceAttributes>
+
+  <ImageGenerationParameters>
+    <SourceProcParam>
+      <ProductLevel>L2B</ProductLevel>
+      <ProcessingFacility>NRSC</ProcessingFacility>
+      <ProcessingDate>2025-01-17T00:13:21Z</ProcessingDate>
+      <SoftwareVersion>1.1.04</SoftwareVersion>
+    </SourceProcParam>
+    <SarProcessingInformation>
+      <lutApplied>Sigma</lutApplied>
+      <ElevationPatternCorrection>true</ElevationPatternCorrection>
+      <RawDataCorrection>true</RawDataCorrection>
+      <RangeReferenceFunctionSource>Nominal Chirp</RangeReferenceFunctionSource>
+      <DopplerSource>Computation</DopplerSource>
+      <DopplerAmbiguityComputed>true</DopplerAmbiguityComputed>
+      <DopplerAmbiguityUsed>true</DopplerAmbiguityUsed>
+      <EstimatedRollAngleUsed>true</EstimatedRollAngleUsed>
+      <RadiometricSmoothingPerformed>false</RadiometricSmoothingPerformed>
+      <ZeroDopplerTimeFirstLine>2025-01-05T00:05:58.911626201Z</ZeroDopplerTimeFirstLine>
+      <ZeroDopplerTimeLastLine>2025-01-05T00:06:21.541626201Z</ZeroDopplerTimeLastLine>
+      <NumberOfLinesProcessed pol="HH">81909</NumberOfLinesProcessed>
+      <NumberOfMissingLines pol="HH">0</NumberOfMissingLines>
+      <NumberOfLinesProcessed pol="HV">81909</NumberOfLinesProcessed>
+      <NumberOfMissingLines pol="HV">0</NumberOfMissingLines>
+      <SamplingWindowStartTimeFirstRawLine beam="6.600000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="5.100000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="3.700000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="2.300000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="0.900000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="-0.400000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="-1.600000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeFirstRawLine beam="-2.800000" units="s">0.000000</SamplingWindowStartTimeFirstRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="6.600000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="5.100000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="3.700000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="2.300000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="0.900000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="-0.400000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="-1.600000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <SamplingWindowStartTimeLastRawLine beam="-2.800000" units="s">22.630005</SamplingWindowStartTimeLastRawLine>
+      <NumberOfSwstChanges beam="6.600000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="5.100000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="3.700000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="2.300000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="0.900000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="-0.400000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="-1.600000">0</NumberOfSwstChanges>
+      <NumberOfSwstChanges beam="-2.800000">0</NumberOfSwstChanges>
+      <RangeNumberOfLooks>2</RangeNumberOfLooks>
+      <RangeLookBandwidth units="Hz">9375000.000000</RangeLookBandwidth>
+      <TotalProcessedRangeBandwidth units="Hz">18750000.000000</TotalProcessedRangeBandwidth>
+      <AzimuthNumberOfLooks>1</AzimuthNumberOfLooks>
+      <AzimuthLookBandwidth units="Hz">208.523315</AzimuthLookBandwidth>
+      <TotalProcessedAzimuthBandwidth units="Hz">208.523315</TotalProcessedAzimuthBandwidth>
+      <AzimuthWindow>
+        <WindowName>HAMMING</WindowName>
+        <WindowCoefficient>1.000000</WindowCoefficient>
+      </AzimuthWindow>
+      <RangeWindow>
+        <WindowName>HAMMING</WindowName>
+        <WindowCoefficient>0.700000</WindowCoefficient>
+      </RangeWindow>
+      <SourceDataGeometry>Slant range</SourceDataGeometry>
+      <SourceGeographicalExtent type="WKT">Polygon ((87.457304 25.813665,89.002630 25.563940,88.713472 24.145056,87.185024 24.396029,87.457304 25.813665))</SourceGeographicalExtent>
+      <AzimuthPixelSpacing units="m">19.098522</AzimuthPixelSpacing>
+      <RangePixelSpacing units="m">14.390038</RangePixelSpacing>
+      <AzimuthResolution units="m">30.360000</AzimuthResolution>
+      <RangeResolution units="m">9.590000</RangeResolution>
+      <IncAngleNearRange units="deg">31.107872</IncAngleNearRange>
+      <IncAngleFarRange units="deg">43.442272</IncAngleFarRange>
+      <SlantRangeNearEdge units="m">610910.125000</SlantRangeNearEdge>
+      <SatelliteHeight units="Km">527.57744543</SatelliteHeight>
+    </SarProcessingInformation>
+    <DopplerCentroid>
+      <TimeOfDopplerCentroidEstimate>2025-01-05T00:06:10.224000000Z</TimeOfDopplerCentroidEstimate>
+      <DopplerAmbiguity>0</DopplerAmbiguity>
+      <DopplerCentroidPolynomialPeriod units="s">0</DopplerCentroidPolynomialPeriod>
+      <DopplerCentroidCoefficients>-8.184723 0.000000 0.000000 </DopplerCentroidCoefficients>
+    </DopplerCentroid>
+    <DopplerRateValues>
+      <DopplerRateReferenceTime>2025-01-05T00:06:10.224000000Z</DopplerRateReferenceTime>
+      <DopplerRateValuesCoefficients units="s">3217.310000 -0.038494 0.000000 </DopplerRateValuesCoefficients>
+    </DopplerRateValues>
+    <Chirp pol="HH">
+      <ChirpQuality>
+        <CrossCorrelationWidth>1.125000</CrossCorrelationWidth>
+        <SideLobeLevel units="dB">-20.000000</SideLobeLevel>
+        <IntegratedSideLobeRatio units="dB">-17.000000</IntegratedSideLobeRatio>
+        <CrossCorrelationPeakLoc>211.875000</CrossCorrelationPeakLoc>
+      </ChirpQuality>
+    </Chirp>
+    <Chirp pol="HV">
+      <ChirpQuality>
+        <CrossCorrelationWidth>1.125000</CrossCorrelationWidth>
+        <SideLobeLevel units="dB">-20.000000</SideLobeLevel>
+        <IntegratedSideLobeRatio units="dB">-17.000000</IntegratedSideLobeRatio>
+        <CrossCorrelationPeakLoc>211.875000</CrossCorrelationPeakLoc>
+      </ChirpQuality>
+    </Chirp>
+    <PerformanceIndicators pol="HH">
+      <NoiseEquivalentIntensity type="Sigma0" units="dB">
+        <Estimates type="min">-19.1</Estimates>
+      </NoiseEquivalentIntensity>
+    </PerformanceIndicators>
+    <PerformanceIndicators pol="HV">
+      <NoiseEquivalentIntensity type="Sigma0" units="dB">
+        <Estimates type="min">-19.1</Estimates>
+      </NoiseEquivalentIntensity>
+    </PerformanceIndicators>
+    <SlantRangeToGroundRange>
+      <ZeroDopplerAzimuthTime>2025-01-05T00:06:10.224000000Z</ZeroDopplerAzimuthTime>
+      <SlantRangeTimeToFirstRangeSample units="s">0.004075553666198</SlantRangeTimeToFirstRangeSample>
+      <SlantToGroundRangeCoefficients units="m">6.108980e+05 9.299822e+00 2.166433e-04 -3.849626e-09 2.860800e-13 -7.207078e-17 1.063831e-20 -8.055003e-25 2.460503e-29</SlantToGroundRangeCoefficients>
+    </SlantRangeToGroundRange>
+  </ImageGenerationParameters>
+
+  <ImageAttributes>
+    <ProductFormat>GeoTIFF</ProductFormat>
+    <OutputMediaInterleaving>BSQ</OutputMediaInterleaving>
+    <RasterAttributes>
+      <DataType>Magnitude Detected</DataType>
+      <BitsPerSample datastream="Magnitude">16</BitsPerSample>
+      <NumberOfSamplesPerLine>10201</NumberOfSamplesPerLine>
+      <NumberOfLines>10301</NumberOfLines>
+      <SampledPixelSpacing units="m">18.000000</SampledPixelSpacing>
+      <SampledLineSpacing units="m">18.000000</SampledLineSpacing>
+      <LineTimeOrdering>Increasing</LineTimeOrdering>
+      <PixelTimeOrdering>Decreasing</PixelTimeOrdering>
+    </RasterAttributes>
+    <GeographicInformation>
+      <GeolocationGrid>
+        <ImageTiePoint>
+          <ImageCoordinate>
+            <Line>0.000000</Line>
+            <Pixel>0.000000</Pixel>
+          </ImageCoordinate>
+          <GeodeticCoordinate>
+            <Latitude units="deg">25.827557</Latitude>
+            <Longitude units="deg">87.183591</Longitude>
+            <Height units="m">-18.561140</Height>
+          </GeodeticCoordinate>
+          <MapCoordinate>
+            <Northing units="m">2856600.000000</Northing>
+            <Easting units="m">518400.000000</Easting>
+          </MapCoordinate>
+        </ImageTiePoint>
+        <ImageTiePoint>
+          <ImageCoordinate>
+            <Line>0.000000</Line>
+            <Pixel>10201.000000</Pixel>
+          </ImageCoordinate>
+          <GeodeticCoordinate>
+            <Latitude units="deg">25.813708</Latitude>
+            <Longitude units="deg">89.015005</Longitude>
+            <Height units="m">-15.547812</Height>
+          </GeodeticCoordinate>
+          <MapCoordinate>
+            <Northing units="m">2856600.000000</Northing>
+            <Easting units="m">702000.000000</Easting>
+          </MapCoordinate>
+        </ImageTiePoint>
+        <ImageTiePoint>
+          <ImageCoordinate>
+            <Line>10301.000000</Line>
+            <Pixel>0.000000</Pixel>
+          </ImageCoordinate>
+          <GeodeticCoordinate>
+            <Latitude units="deg">24.153201</Latitude>
+            <Longitude units="deg">87.181120</Longitude>
+            <Height units="m">115.951819</Height>
+          </GeodeticCoordinate>
+          <MapCoordinate>
+            <Northing units="m">2671200.000000</Northing>
+            <Easting units="m">518400.000000</Easting>
+          </MapCoordinate>
+        </ImageTiePoint>
+        <ImageTiePoint>
+          <ImageCoordinate>
+            <Line>10301.000000</Line>
+            <Pixel>10201.000000</Pixel>
+          </ImageCoordinate>
+          <GeodeticCoordinate>
+            <Latitude units="deg">24.140366</Latitude>
+            <Longitude units="deg">88.987913</Longitude>
+            <Height units="m">-47.483748</Height>
+          </GeodeticCoordinate>
+          <MapCoordinate>
+            <Northing units="m">2671200.000000</Northing>
+            <Easting units="m">702000.000000</Easting>
+          </MapCoordinate>
+        </ImageTiePoint>
+        <ImageTiePoint>
+          <ImageCoordinate>
+            <Line>5150.000000</Line>
+            <Pixel>5100.000000</Pixel>
+          </ImageCoordinate>
+          <GeodeticCoordinate>
+            <Latitude units="deg">24.986532</Latitude>
+            <Longitude units="deg">88.091904</Longitude>
+            <Height units="m">-28.773661</Height>
+          </GeodeticCoordinate>
+          <MapCoordinate>
+            <Northing units="m">2763900.000000</Northing>
+            <Easting units="m">610200.000000</Easting>
+          </MapCoordinate>
+        </ImageTiePoint>
+      </GeolocationGrid>
+      <ReferenceEllipsoidParameters>
+        <EllipsoidName>WGS84</EllipsoidName>
+        <SemiMajorAxis units="m">6.378137e+06</SemiMajorAxis>
+        <SemiMinorAxis units="m">6.356752314245179e+06</SemiMinorAxis>
+        <DatumShiftParameters units="m">0.000000 0.000000 0.000000</DatumShiftParameters>
+        <GeodeticTerrainHeight units="m">1.117092</GeodeticTerrainHeight>
+      </ReferenceEllipsoidParameters>
+      <MapProjection>
+        <MapProjectionDescriptor>UTM</MapProjectionDescriptor>
+        <ResamplingKernel>CC</ResamplingKernel>
+        <DEMCorrection>YES</DEMCorrection>
+        <DEMSource>COPERNICUS30</DEMSource>
+        <SatelliteHeading units="deg">0.000000</SatelliteHeading>
+        <UTMProjection>
+          <UtmZone>45</UtmZone>
+          <Hemisphere>NORTHERN</Hemisphere>
+          <MapOriginFalseEasting units="m">500000.000000</MapOriginFalseEasting>
+          <MapOriginFalseNorthing units="m">0.000000</MapOriginFalseNorthing>
+        </UTMProjection>
+        <MapCorners>
+          <UpperLeftCorner>
+            <Latitude units="deg">25.827557</Latitude>
+            <Longitude units="deg">87.183591</Longitude>
+            <Northing units="m">2856600.000000</Northing>
+            <Easting units="m">518400.000000</Easting>
+          </UpperLeftCorner>
+          <UpperRightCorner>
+            <Latitude units="deg">25.813708</Latitude>
+            <Longitude units="deg">89.015005</Longitude>
+            <Northing units="m">2856600.000000</Northing>
+            <Easting units="m">702000.000000</Easting>
+          </UpperRightCorner>
+          <LowerRightCorner>
+            <Latitude units="deg">24.140366</Latitude>
+            <Longitude units="deg">88.987913</Longitude>
+            <Northing units="m">2671200.000000</Northing>
+            <Easting units="m">702000.000000</Easting>
+          </LowerRightCorner>
+          <LowerLeftCorner>
+            <Latitude units="deg">24.153201</Latitude>
+            <Longitude units="deg">87.181120</Longitude>
+            <Northing units="m">2671200.000000</Northing>
+            <Easting units="m">518400.000000</Easting>
+          </LowerLeftCorner>
+        </MapCorners>
+      </MapProjection>
+    </GeographicInformation>
+    <RadiometricInformation pol="HH">
+      <Mean datastream="Magnitude">1040.526218</Mean>
+      <StandardDeviation datastream="Magnitude">528.799769</StandardDeviation>
+    </RadiometricInformation>
+    <RadiometricInformation pol="HV">
+      <Mean datastream="Magnitude">408.794921</Mean>
+      <StandardDeviation datastream="Magnitude">154.134723</StandardDeviation>
+    </RadiometricInformation>
+    <CalibrationConstant pol="HH" units="dB">69.274292</CalibrationConstant>
+    <CalibrationConstant pol="HV" units="dB">69.274292</CalibrationConstant>
+    <CalibrationConstant_Gamma0 pol="HH" units="dB">68.256363</CalibrationConstant_Gamma0>
+    <CalibrationConstant_Gamma0 pol="HV" units="dB">68.256363</CalibrationConstant_Gamma0>
+    <CalibrationConstant_Beta0 pol="HH" units="dB">67.139999</CalibrationConstant_Beta0>
+    <CalibrationConstant_Beta0 pol="HV" units="dB">67.139999</CalibrationConstant_Beta0>
+    <CP_Relative_Phase_Imbalance>-9999.990000</CP_Relative_Phase_Imbalance>
+    <CP_Relative_Channel_Imbalance>-9999.990000</CP_Relative_Channel_Imbalance>
+    <FP_Transmit_Phase_Imbalance>-9999.990000</FP_Transmit_Phase_Imbalance>
+    <FP_Receive_Phase_Imbalance>-9999.990000</FP_Receive_Phase_Imbalance>
+    <FP_Copol_Channel_Imbalance>-9999.990000</FP_Copol_Channel_Imbalance>
+    <FP_Crosspol_Channel_Imbalance>-9999.990000</FP_Crosspol_Channel_Imbalance>
+    <Image_CP_Relative_Phase_Imbalance>-9999.990000</Image_CP_Relative_Phase_Imbalance>
+    <Image_CP_Relative_Channel_Imbalance>-9999.990000</Image_CP_Relative_Channel_Imbalance>
+    <Image_FP_CoPol_Phase_Imbalance>-9999.990000</Image_FP_CoPol_Phase_Imbalance>
+    <Image_FP_CrossPol_Phase_Imbalance>-9999.990000</Image_FP_CrossPol_Phase_Imbalance>
+    <Image_FP_Copol_Channel_Imbalance>-9999.990000</Image_FP_Copol_Channel_Imbalance>
+    <Image_FP_Crosspol_Channel_Imbalance>-9999.990000</Image_FP_Crosspol_Channel_Imbalance>
+    <Image_Registration_Status>1</Image_Registration_Status>
+    <Image_Range_Error_Meters>-2.717051</Image_Range_Error_Meters>
+    <Image_Time_Error_Meters>1004.680796</Image_Time_Error_Meters>
+    <Image_Time_Error_Seconds>0.142294</Image_Time_Error_Seconds>
+    <FullResolutionImageData pol="HH">imagery_HH.tif</FullResolutionImageData>
+    <FullResolutionImageData pol="HV">imagery_HV.tif</FullResolutionImageData>
+  </ImageAttributes>
+
+  <CEOS-ARDProductAttributes>
+    <DataAccess>
+      <ProcessingFacility>NRSC</ProcessingFacility>
+      <ProcessingTime TimeZone="UTC">2025-01-17T00:13:21Z</ProcessingTime>
+      <SoftwareVersion>1.1.04</SoftwareVersion>
+      <Repository type="URL">https://bhoonidhi.nrsc.gov.in</Repository>
+    </DataAccess>
+    <ProductSampleSpacing>
+      <ProductColumnSpacing units="m">18.000000</ProductColumnSpacing>
+      <ProductRowSpacing units="m">18.000000</ProductRowSpacing>
+    </ProductSampleSpacing>
+    <Filtering>
+      <FilterApplied>FALSE</FilterApplied>
+      <FilterType>N/A</FilterType>
+      <WindowSizeCol>N/A</WindowSizeCol>
+      <WindowSizeLine>N/A</WindowSizeLine>
+    </Filtering>
+    <ProductBoundingBox Corner="UL">
+      <Northing units="m">2856600.000000</Northing>
+      <Easting units="m">518400.000000</Easting>
+      <Height units="m">-18.561140</Height>
+    </ProductBoundingBox>
+    <ProductBoundingBox Corner="LR">
+      <Northing units="m">2671200.000000</Northing>
+      <Easting units="m">702000.000000</Easting>
+      <Height units="m">-47.483748</Height>
+    </ProductBoundingBox>
+    <ProductGeographicalExtent order="longitude latitude" type="WKT">Polygon ((87.183591 25.827557,89.015005 25.813708,88.987913 24.140366,87.181120 24.153201,87.183591 25.827557))</ProductGeographicalExtent>
+    <ProductImageSize>
+      <NumberLines>10301</NumberLines>
+      <NumPixelsPerLine>10201</NumPixelsPerLine>
+      <HeaderSize units="bytes">N/A</HeaderSize>
+      <NumBorderPixels>N/A</NumBorderPixels>
+    </ProductImageSize>
+    <PixelCoordinateConvention>ULC</PixelCoordinateConvention>
+    <CoordinateReferenceSystem type="EPSG">32645</CoordinateReferenceSystem>
+    <CoordinateReferenceSystem type="WKT">PROJCS["WGS 84 / UTM zone 45N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",87],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32645"]]
+</CoordinateReferenceSystem>
+    <PerPixelMetadata>
+      <DataMask>
+        <FileName>E04_SAR_MRS_05JAN2025_005000558909_15965_STUC00ZTD_21240_7_DH_D_R_N25120_E088158_mask.tif</FileName>
+        <SampleType>Mask</SampleType>
+        <DataFormat>GeoTiff</DataFormat>
+        <DataType>UINT</DataType>
+        <BitsPerSample>16</BitsPerSample>
+        <ByteOrder>Little Endian</ByteOrder>
+        <BitValues>
+          <ValidData>128</ValidData>
+          <InvalidData>N/A</InvalidData>
+          <NoData>0</NoData>
+          <Layover>16</Layover>
+          <Shadow>64</Shadow>
+        </BitValues>
+      </DataMask>
+      <LocalIncAngle>
+        <FileName>E04_SAR_MRS_05JAN2025_005000558909_15965_STUC00ZTD_21240_7_DH_D_R_N25120_E088158_lia.tif</FileName>
+        <SampleType units="deg">Angle</SampleType>
+        <DataFormat>GeoTiff</DataFormat>
+        <DataType>FLOAT</DataType>
+        <BitsPerSample>32</BitsPerSample>
+        <ByteOrder>Little Endian</ByteOrder>
+        <BitValues>
+          <NoData>-2.0</NoData>
+        </BitValues>
+      </LocalIncAngle>
+      <LocalContributingArea>
+        <FileName>E04_SAR_MRS_05JAN2025_005000558909_15965_STUC00ZTD_21240_7_DH_D_R_N25120_E088158_area.tif</FileName>
+        <SampleType>Scattering Area</SampleType>
+        <DataFormat>GeoTiff</DataFormat>
+        <DataType>FLOAT</DataType>
+        <BitsPerSample>32</BitsPerSample>
+        <ByteOrder>Little Endian</ByteOrder>
+        <BitValues>
+          <NoData>0.0</NoData>
+        </BitValues>
+      </LocalContributingArea>
+    </PerPixelMetadata>
+    <BackscatterMeasurementData>
+      <BackscatterMeasurement>Gamma-0</BackscatterMeasurement>
+      <BackscatterConvention>linear power</BackscatterConvention>
+      <BackscatterConversionEq units="dB">10*log10(DN^2) - 67.139999</BackscatterConversionEq>
+      <Polarization pol="HH">
+        <FileName>scene_HH/imagery_HH.tif</FileName>
+        <DataFormat>GeoTiff</DataFormat>
+        <DataType>UINT</DataType>
+        <BitsPerSample>16</BitsPerSample>
+        <ByteOrder>Little Endian</ByteOrder>
+        <BitValues>
+          <NoData>0</NoData>
+        </BitValues>
+      </Polarization>
+    </BackscatterMeasurementData>
+    <BackscatterMeasurementData>
+      <BackscatterMeasurement>Gamma-0</BackscatterMeasurement>
+      <BackscatterConvention>linear power</BackscatterConvention>
+      <BackscatterConversionEq units="dB">10*log10(DN^2) - 67.139999</BackscatterConversionEq>
+      <Polarization pol="HV">
+        <FileName>scene_HV/imagery_HV.tif</FileName>
+        <DataFormat>GeoTiff</DataFormat>
+        <DataType>UINT</DataType>
+        <BitsPerSample>16</BitsPerSample>
+        <ByteOrder>Little Endian</ByteOrder>
+        <BitValues>
+          <NoData>0</NoData>
+        </BitValues>
+      </Polarization>
+    </BackscatterMeasurementData>
+    <NoiseRemoval>
+      <NoiseRemovalApplied>TRUE</NoiseRemovalApplied>
+      <NRAlgorithm type="DOI">10.1109/TGRS.2009.2035443</NRAlgorithm>
+    </NoiseRemoval>
+    <RadiometricTerrainCorrections>
+      <RTCAlgorithm type="DOI">10.1109/TGRS.2011.2120616</RTCAlgorithm>
+    </RadiometricTerrainCorrections>
+    <GeometricCorrections>
+      <DigitalElevationModel dem="Surface">
+        <DEMReference type="DOI">https://doi.org/10.5270/ESA-c5d3d65</DEMReference>
+        <EGMReference type="URL">https://earth-info.nga.mil/php/download.php?file=coord-wgs84</EGMReference>
+      </DigitalElevationModel>
+      <GeoCorrAccuracy>
+        <NorthernBias units="m">0.358725</NorthernBias>
+        <EasternBias units="m">3.579364</EasternBias>
+        <NorthernSTDev units="m">1.800000</NorthernSTDev>
+        <EasternSTDev units="m">1.800000</EasternSTDev>
+      </GeoCorrAccuracy>
+      <GriddingConvention type="Description">Upper Left corner coordinates correspond to Product Northing and Easting in meters</GriddingConvention>
+    </GeometricCorrections>
+  </CEOS-ARDProductAttributes>
+
+</Product>

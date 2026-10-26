@@ -1,0 +1,11 @@
+venv/
+bhoonidhi_year/
+stack_liss3/
+mask_liss3/
+data/
+_old/
+*.tif
+*.zip
+*.part
+*.skip
+__pycache__/
