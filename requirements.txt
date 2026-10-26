@@ -1,2 +1,8 @@
-geotessera
-pystac-client
+requests
+numpy
+pillow
+pandas
+geopandas
+matplotlib
+rasterio
+scikit-learn

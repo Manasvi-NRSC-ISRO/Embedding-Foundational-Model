@@ -1,11 +1,26 @@
+﻿# environments
 venv/
+.venv/
+__pycache__/
+*.pyc
+
+# data (bahut bada, repo mein nahi jaayega)
 bhoonidhi_year/
-stack_liss3/
-mask_liss3/
-data/
-_old/
-*.tif
+stack_*/
+mask_*/
+outputs/
 *.zip
 *.part
 *.skip
-__pycache__/
+*.tif
+*.tiff
+
+# generated files
+per_date_coverage.csv
+scene_index.csv
+mask_preview.png
+
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
